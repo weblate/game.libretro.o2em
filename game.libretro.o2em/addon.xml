@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.o2em"
+		name="Odyssey 2 (o2em)"
+		version="1.0.1"
+		provider-name="Libretro">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_android="game.libretro.o2em.so"
+			library_linux="game.libretro.o2em.so"
+			library_osx="game.libretro.o2em.dylib"
+			library_windx="game.libretro.o2em.dll"
+			library_wingl="game.libretro.o2em.dll">
+		<platforms>Odyssey 2</platforms>
+		<extensions>o2em</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_no_game>false</supports_no_game>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">o2em v1.0.1</summary>
+		<description>Source: https://github.com/libretro/libretro-o2em</description>
+		<platform>all</platform>
+	</extension>
+</addon>
