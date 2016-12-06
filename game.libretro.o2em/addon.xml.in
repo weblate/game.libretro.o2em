@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.o2em"
-		name="Odyssey 2 (o2em)"
-		version="1.0.1"
+		name="Odyssey2 / Videopac+ (O2EM)"
+		version="1.18.0"
 		provider-name="Libretro">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
@@ -9,13 +9,18 @@
 	<extension point="kodi.gameclient"
 			library_@PLATFORM@="@LIBRARY_FILENAME@">
 		<platforms>Odyssey 2</platforms>
-		<extensions>o2em</extensions>
-		<supports_vfs>true</supports_vfs>
-		<supports_no_game>false</supports_no_game>
+		<extensions>bin</extensions>
+		<supports_vfs>false</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+		<supports_keyboard>false</supports_keyboard>
+		<supports_mouse>false</supports_mouse>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">o2em v1.0.1</summary>
-		<description>Source: https://github.com/libretro/libretro-o2em</description>
+		<summary lang="en">Odyssey2 / Videopac+ (O2EM) 1.18</summary>
+		<description>Source: https://github.com/libretro/libretro-o2em
+
+Supported files: .bin</description>
+		<license>Artistic License</license>
 		<platform>@PLATFORM@</platform>
 	</extension>
 </addon>
