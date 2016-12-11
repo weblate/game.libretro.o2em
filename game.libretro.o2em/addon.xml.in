@@ -16,7 +16,7 @@
 		<supports_mouse>false</supports_mouse>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Odyssey2 / Videopac+ (O2EM) 1.18</summary>
+		<summary lang="en">Odyssey2 / Videopac+ (O2EM) 1.18 3b70a63</summary>
 		<description>Source: https://github.com/libretro/libretro-o2em
 
 Supported files: .bin</description>
