@@ -17,7 +17,9 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Odyssey2 / Videopac+ (O2EM) 1.18</summary>
-		<description>Source: https://github.com/libretro/libretro-o2em
+		<description>O2EM is an Odyssey 2 / VideoPac emulator.
+
+Place &quot;o2rom.bin&quot; (required) in your userdata folder.
 
 Supported files: .bin</description>
 		<license>Artistic License</license>
