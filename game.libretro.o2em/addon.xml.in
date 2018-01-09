@@ -16,10 +16,10 @@
 		<supports_mouse>false</supports_mouse>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Odyssey² / Videopac+ (O2EM) 1.18</summary>
+		<summary lang="en">Odyssey2 / Videopac+ (O2EM) 1.18</summary>
 		<description>O2EM is an Odyssey² / VideoPac emulator.
 
-Place &quot;o2rom.bin&quot; (required) in your userdata folder.
+Place &#34;o2rom.bin&#34; (required) in your userdata folder.
 
 Supported files: .bin</description>
 		<license>Artistic License</license>
