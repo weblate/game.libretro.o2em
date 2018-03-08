@@ -10,3 +10,5 @@ set(O2EM_CUSTOM_BINARY ${O2EM_LIB}
     ${PROJECT_NAME}${CMAKE_SHARED_LIBRARY_SUFFIX})
 
 build_addon(${PROJECT_NAME} O2EM "")
+
+include(CPack)
