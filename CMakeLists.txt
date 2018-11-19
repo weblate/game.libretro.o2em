@@ -4,7 +4,7 @@ project(game.libretro.o2em)
 list(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR})
 
 find_package(Kodi REQUIRED)
-find_package(libretro-o2em REQUIRED)
+find_library(O2EM_LIB NAMES o2em_libretro${CMAKE_SHARED_LIBRARY_SUFFIX} PATH_SUFFIXES libretro)
 
 set(O2EM_CUSTOM_BINARY ${O2EM_LIB}
     ${PROJECT_NAME}${CMAKE_SHARED_LIBRARY_SUFFIX})
