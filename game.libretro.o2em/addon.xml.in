@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.o2em"
 		name="Magnavox - Odyssey2 / Phillips Videopac+ (O2EM)"
-		version="1.18.0.9"
+		version="1.18.0.10"
 		provider-name="Daniel Boris, Andre de la Rocha, Arlindo M. de Oliveira">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
