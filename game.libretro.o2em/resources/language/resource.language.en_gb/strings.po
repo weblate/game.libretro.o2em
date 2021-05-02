@@ -21,5 +21,37 @@ msgid "Settings"
 msgstr ""
 
 msgctxt "#30001"
-msgid "Virtual keyboard transparency"
+msgid "Audio Volume"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Emulated Hardware (Restart)"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Crop Overscan"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Audio Filter"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Audio Filter Level"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Interframe Blending"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Console Region (Restart)"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Swap Gamepads"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Virtual KBD Transparency"
 msgstr ""
